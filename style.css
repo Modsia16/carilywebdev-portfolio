@@ -50,11 +50,45 @@ nav ul li a {
     font-weight: 600 bold;
 }
 
-@charset3 "UTF-8";
-
-/*
-intro (
+.CarilyWebDev {
+    font-family: OCR A std, monospace;
+    color: purple; 
+    font-weight: 800;
+    font-size: 25px;
 }
+
+.topicone {
+    font-family: OCR A std, monospace;
+    color: purple;
+    font-size: 20px;
+}
+
+.topictwo {
+    font-family: OCR A std, monospace;
+    color: purple;
+    font-size: 20px;
+}
+
+.topicthree {
+    font-family: OCR A std, monospace;
+    color: purple;
+    font-size: 20px;
+}
+
+.topicfour {
+    font-family: OCR A std, monospace;
+    color: purple;
+    font-size: 20px;
+}
+/*link content*/
+
+.intro img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
 
 skillset {
     
@@ -75,7 +109,7 @@ Contact {
 }*/
 
 
-
+@charset3 "UTF-8";
 
   
 
