@@ -8,57 +8,84 @@
     </head>
     <body>
         <section>
+            <!--<img src="9045.jpg" width="100%" height="100%">-->
                 <!--possibly remove header, removed header-->
                 <!--Hello for the top of the page-->
                 <!--site navigation area-->
-                <nav class="navigation">
-                    <a href="#" class="CarilyWebDev" alt="CarilyWebDev">CarilyWebDev</a>
-                    <ul class="nav__links">
-                        <li><a href="#introduction" class="topicone">Intro</a></li>
-                        <li><a href="#skills" class="topictwo">Skills</a></li>
-                        <li><a href="#GitHub" class="topicthree">GitHub</a></li>
-                        <li><a href="#Contact" class="topicfour">Contact</a></li>
-                    </ul>
-                </nav>
-            
+            <div id="home">
+            <nav class="navigation">
+                <a class="CarilyWebDev" alt="CarilyWebDev">CarilyWebDev</a>
+                <ul class="nav__links">
+                    <li><a href="#introduction" class="topic">Intro</a></li>
+                    <li><a href="#skillset" class="topic">Work</a></li>
+                    <li><a href="#contact" class="topic">Contact</a></li>
+                </ul>
+            </div>
+            </nav>  
     <!--bones of body, basics down edit and replace as needed-->
             <!--use unique classes for styling-->
+         
             <section class="intro" id="introduction">
+                <div class="intro-container">
                         <!--Hello I am Carina Diaz-->
-                <img src="IMG_20180216_224119_466.jpg"  alt="a photo of Carina Diaz">
-                <p class="section-intro">I' Carina Diaz</p>
-                    <p>I am a jr. full stack web devloper. I am training and gaining experiece using an array of devlopment platforms.</p>
+                <img title="me" src="IMG_20180216_224119_466.jpg" class="me" alt="a photo of Carina Diaz"/>
+                <h1 class="section-intro">I'm Carina Diaz</h1>
+                <p>I am a jr. full stack web devloper. I am training and gaining experiece using an array of devlopment platforms.</p>
                 <p>Tools including HTML, CSS, JavaScript, MERN stack, progressive web apps and more!</p> 
                 <p>With a strong work ethic and meticulous attention to detail I am 
                     confident I can create a unique design for your site!</p>
-            </section>
-<!--make buttons for Github and work designs-->
-<!--(<button></button>)<button class="see designs-button" class="see Github button" class="see-socialmedia button"-->
-            <!--Skills section
-            <section class="skillset" id="skillset">
-                <h1 class="skills">Skills</h1>
-                    <ul class="skills-info">
-                    <li>Responsive and accesible site design</li>
-                    <li>Front and back end devlopment</li>
-                    <li>Client site custom design</li>
-                    </ul>
-            </section>-->
-
-<!--
-            <section class="github" id="GitHub">
-                <h1 class="github-info">Github</h1>
-                    <p>Check out my GitHub site to see some of my work!</p>
-                    <p><a href="https://github.com/Modsia16" target="_blank">Github</a></p></p>
-            </section>-->
-            
-    <!-- not sure if i want to put my contact in the footer instead-->
-               <!-- <footer> 
-                    <section class="Contact" id="Contact">
-                        <h1 class="contact-info">Contact</h1>
-                        <p><a href="mailto: carilywebdev@gmail.com"></a>email: carilywebdev.gmail.com</p>
-                    </section>
-                </footer>-->
             </div>
+            </section>
+            
+<!--make buttons and work designs-->
+<!--(<button></button>)<button class="see designs-button" class="see Github button" class="see-socialmedia button"-->
+            <div class="skill-section">       
+            <section class="skillset" id="skillset">
+                <h1 class="skills">work</h1>
+                    <p>Responsive and accesible site design</p>
+                    <p>Front and back end devlopment</p>
+                    <p>Client site custom design</p>
+                    <div>
+                    <img title="fireworks" src="1142.jpg" class="fireworks" alt="fireworks"/>
+                        <!--<div class="text-block-fireworks">
+                        <h4>Pyrotechnics</h4>
+                        <p>Light up the night</p>
+                        </div>-->
+                    </div>
+                    <div>
+                        <img title="landing page" src="landing.jpg" class="landing" alt="landing"/>
+                           <!--<div class="text-block-landing">
+                            <h4>Wilderness course</h4>
+                            <p>What an adventure</p>
+                            </div>-->
+                    </div>
+                    <div>
+                    <img title="confetti" src="9045.jpg" class="confetti" alt="confetti"/>
+                        <!--<div class="text-block-confetti">
+                        <h4>Event planning</h4>
+                        <p>Celebrate big events</p>
+                        </div>-->
+                    </div>
+                    <button class="work-button"><a href="https://modsia16.github.io/Landing-page-project/" target="_blank">See More Designs</a></button>
+                </section>
+            </div> 
+            <div class="social-section"> 
+            <section class="contact" id="contact">
+                <h1 class="social-info">My Network</h1>
+                    <p>Check out my GitHub site to see some of my work!</p>
+                    <button class="github-button"><a href="https://github.com/Modsia16" target="_blank">Github</a></button>
+                    <button class="email-button">Contact Me!</button>
+            </section>
+            </div> 
+            <div class="container">
+            <section>
+                <!--<img src="IMG_20180216_224119_466.jpg" class="me" alt="a photo of Carina Diaz">-->
+            </section>
+            </div>  
+            <footer>
+                <!--fix to bottom and brand-->
+                <h1><a href="#home" class="back-to-top">CarilyWebDev</a></h1>
+            </footer>
         </section>
     </body>
 </html>
