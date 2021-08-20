@@ -1,96 +1,103 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Carina Diaz Portfolio</title>
-        <link rel="stylesheet" type="text/CSS" href="style.css">
-    </head>
-    <body>
-        <section>
-            <!--<img src="9045.jpg" width="100%" height="100%">-->
-                <!--possibly remove header, removed header-->
-                <!--Hello for the top of the page-->
-                <!--site navigation area-->
-            <div id="home">
-                <nav class="navigation">
-                    <a class="CarilyWebDev" alt="CarilyWebDev">CarilyWebDev</a>
-                        <ul class="nav__links">
-                            <li><a href="#introduction" class="topic">Intro</a></li>
-                            <li><a href="#skillset" class="topic">Work</a></li>
-                            <li><a href="#contact" class="topic">Contact</a></li>
-                        </ul>
-                </nav>
-            </div>
-    <!--bones of body, basics down edit and replace as needed-->
-            <!--use unique classes for styling-->
-         
-            <section class="intro" id="introduction"><img title="me" src="IMG_20180216_224119_466.jpg" class="me" alt="a photo of Carina Diaz"/>
-                        <!--Hello I am Carina Diaz-->
-                <div class="intro-container">
-                <h1 class="section-intro">I'm Carina Diaz,</h1>
-                <p>I am a jr. full stack web devloper. </p>
-                <p>I am currently gaining experiece using an array of web devlopment systems.
-                Systems I have experience with including HTML, CSS, JavaScript, MERN stack, progressive web apps and more!</p>
-                <p>With a strong work ethic and meticulous attention to detail I am 
-                confident I can create a unique design for your website!</p>
-                </div>
-            </section>
-            
-<!--make buttons and work designs-->
-<!--(<button></button>)<button class="see designs-button" class="see Github button" class="see-socialmedia button"-->
-            <div class="skill-section">       
-            <section class="skillset" id="skillset">
-                <h1 class="skills">Work</h1>
-                    <p>Responsive and accesible site design</p>
-                    <p>Front and back end devlopment</p>
-                    <p>Client site custom design</p>
-                    <div>
-                    <a href="#">
-                    <img title="fireworks" src="1142.jpg" class="fireworks" alt="fireworks"/>
-                    </a>    
-                    <!--<div class="text-block-fireworks">
-                        <h4>Pyrotechnics</h4>
-                        <p>Light up the night</p>
-                        </div>-->
-                    </div>
-                    <div>
-                        <a href="#">
-                        <img title="landing page" src="landing.jpg" class="landing" alt="landing"/>
-                        </a>
-                        <!--<div class="text-block-landing">
-                            <h4>Wilderness course</h4>
-                            <p>What an adventure</p>
-                            </div>-->
-                    <a href="#">
-                    <img title="tribute page" src="band.jpg" class="band" alt="tribute page"/>
-                    </a>
-                    <!--<div class="text-block-confetti">
-                        <h4>Event planning</h4>
-                        <p>Celebrate big events</p>
-                        </div>-->
-                    </div>
-                </section>
-                <button class="work-button"><a href="https://modsia16.github.io/Landing-page-project/" target="_blank">See More Designs</a></button>
-            </div> 
-            <div class="social-section"> 
-            <section class="contact" id="contact">
-                <h1 class="social-info">My Network</h1>
-                    <p>Check out my GitHub site to see some of my work!</p>
-                    <button class="github-button"><a href="https://github.com/Modsia16" target="_blank">Github</a></button>
-                    <button class="email-button">Contact Me!</button>
-            </section>
-            </div> 
-            <div class="container">
-            <section>
-                <!--<img src="IMG_20180216_224119_466.jpg" class="me" alt="a photo of Carina Diaz">-->
-            </section>
-            </div>  
-            <footer>
-                <!--fix to bottom and brand-->
-                <h1><a href="#home" class="back-to-top">CarilyWebDev</a></h1>
-            </footer>
-        </section>
+    <html>
+<head>
+    <title>Carina Diaz Portfolio</title>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2d7177611f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav>
+    <!--<img id="logo" src="images/image0.jpg" alt="Carina Diaz logo">-->
+    <img class="headshot" src="images/IMG_20180216_224119_466.jpg" alt="Carina Diaz headshot" />
+    <ul class="nav-bar">
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="https://github.com/Modsia16" target="_blank">GitHub</a></li>
+        <li><a href="pages/contact.html" target="_blank">Contact me</a></li>
+        <li><a href="https://www.linkedin.com/in/carina-diaz-a22009199/"target="_blank" >Linkedin</a></li>
+        <li><a href="pages/resume.html" target="_blank">Resume</a></li>
+
+    </ul>
+</nav>
+<div class="hello">
+    <div class="hello-sum">    
+        <h1 id="name">Carina Diaz</h1>
+        <p>Professional web developer</p>
+        <div class="styler"></div>
+        <div class="button"><a href="pages/resume.html" target="_blank" >Hire me</a></div>
+    </div>
+    <!--<div>
+        <img class="placeholder-image" src="" alt="placeholder" />
+    </div>-->
+</div>
+
+<section>
+    <div class="about-me">
+        <img id="logo" src="images/image0.jpg" alt="Carina Diaz logo" />
+    </div>
+    <div class="info">
+        <h2><a name="about-me"></a>About me</h2>
+        <p>I am currently gaining experience using an array of web development systems.
+            Systems I have experience with including HTML, CSS, JavaScript, MERN stack, progressive web apps and more!</p>
+            With a strong work ethic and meticulous attention to detail I am 
+            confident I can create a unique design for your website!
+            <!--From the central valley in northern California. I discovered my passion for Web development as way to funnel my OCD into something productive-->
+    </p>
+    </div>
+</section>
+<section>
+    <h2>Dev Work</h2>
+</section>
+<section>
+    <div class="work" id="main"><a href="https://modsia16.github.io/Nutritional-Value/" target="_blank"><img id="screenshmain" src="images/Nutrition-app.png"></a></div>
+    <div class="work-sch"><a href="https://modsia16.github.io/Code-quiz/" target="_blank"><img id="screensh-quiz" src="images/quiz.png"></a></div>
+    <div class="work-day"><a href="https://modsia16.github.io/simplescheduler/" target="_blank"><img id="screensh-day" src="images/scheduler.png"></a></div>
+</section>
+
+<section class="contact-form">
+    <form>
+        <h2>Contact Me</h2>
+        <div class="input-section">
+        <div class="input-group">
+        <label for="first-name">First name:</label>
+        <input type="text" id="name-input" name="first-name" value="first name"></input>
+        </div>
+        <div class="input-group">
+        <label for="last-name">Last name:</label>
+        <input type="text" id="last-input" name="last-name" value="last name"></input>
+        </div>
+        </div>
+        <div class="input-section">
+        <label for="office">Office</label>
+        <input type="radio" id="office" name="office" value="office"></input>
+        <label for="remote-work">Remote work</label>
+        <input type="radio" id="remote-work" name="remote-work" value="remote-work"></input>
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="other" value="other"></input>
+        </div>
+        <div class="input-section">
+        <input type="checkbox" id="contract" name="contract" value="contract"></input>
+        <label for="contract">Contract work</label>
+        <input type="checkbox" id="full-time" name="full-time" value="full-time"></input>
+        <label for="full-time">Full time</label>
+        <input type="checkbox" id="part-time" name="part-time" value="part-time"></input>
+        <label for="part-time">Part time</label>
+        </div>
+        <input class="button" type="submit" value="submit"></input>
+    </form>
+</section>
+<footer>
+    <ul>
+        <li><a href="">About me</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">GitHub</a></li>
+    </ul>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+    
     </body>
 </html>
 
